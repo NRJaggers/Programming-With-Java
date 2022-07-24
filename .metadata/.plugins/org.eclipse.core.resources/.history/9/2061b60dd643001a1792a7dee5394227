@@ -1,0 +1,8 @@
+package Homework;
+
+public class Assignment1 {
+	public static void main(String[] args) {
+		//Starting template
+		System.out.println("Hello and welcome to the program!\n") ;
+	}
+}

@@ -1,0 +1,26 @@
+//Nathan Jaggers
+//1547609
+
+package Assignment15;
+
+public class Assignment15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static int counter ; 
+    public static int gcd(int m, int n) {
+    	//increment counter
+    	
+    	//base cases and recursive call
+    	if(n == 0)
+    		return m;
+    	else if(m == 0)
+    		return n;
+    	else if(m%n == 0)
+    		return n;
+    	else
+    		return gcd(n,m%n);
+    }
+}

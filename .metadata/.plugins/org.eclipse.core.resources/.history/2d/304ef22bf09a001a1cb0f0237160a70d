@@ -1,0 +1,39 @@
+//Nathan Jaggers
+//1547609
+
+package Sandbox;
+
+import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.ToggleGroup;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.FlowPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.Rectangle;
+import javafx.stage.Stage;
+
+public class Test {
+	  public static void main(String[] args) {
+	    Test test = new Test();
+	    test.setAction(() -> System.out.print("Action 1! "));
+	  }
+
+	  public void setAction(T t) {
+	    t.m1();
+	  }
+	}
+
+	interface T {
+	  public void m1();
+//	  public void m2();
+	}

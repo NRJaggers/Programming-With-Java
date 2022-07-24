@@ -1,0 +1,2 @@
+Sets are more efficient than lists for storing nonduplicate elements. Lists are useful for accessing elements through the index.
+The elements in a list can be accessed through the index. However, sets do not support index- ing, because the elements in a set are unordered. To traverse all elements in a set, use a foreach loop. We now conduct an interesting experiment to test the performance of sets and lists.

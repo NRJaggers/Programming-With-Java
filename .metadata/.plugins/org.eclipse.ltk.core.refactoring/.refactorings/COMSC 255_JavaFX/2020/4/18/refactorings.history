@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;Sandbox&apos; to &apos;COMSC 255_JavaFX_Homework/src&apos;&#x0D;&#x0A;- Original project: &apos;COMSC 255_JavaFX&apos;&#x0D;&#x0A;- Destination element: &apos;COMSC 255_JavaFX_Homework/src&apos;&#x0D;&#x0A;- Original element: &apos;COMSC 255_JavaFX/src/Sandbox&apos;" description="Copy package" destination="=COMSC 255_JavaFX_Homework/src" element1="/src&lt;Sandbox" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1588036354736" version="1.0"/>
+</session>

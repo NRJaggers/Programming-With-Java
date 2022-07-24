@@ -1,0 +1,38 @@
+//Nathan Jaggers
+//1547609
+
+package Assignment15;
+
+import java.util.Scanner;
+
+public class Assignment15 {
+
+	public static void main(String[] args) {
+		
+		//declarations
+		  Scanner input = new Scanner(System.in) ;
+		  
+		//welcome
+		  System.out.println("Hello and welcome to Program 15!\n");
+		  
+		//greatest common divisor
+		  System.out.println("Please enter one integer : ");
+		  
+		//goodbye
+		  System.out.println("\nGoodbye and have a wonderful rest of your day.");
+	}
+	public static int counter ; 
+    public static int gcd(int m, int n) {
+    	//increment counter
+    	  counter++ ;
+    	//base cases and recursive call
+    	if(n == 0)
+    		return m;
+    	else if(m == 0)
+    		return n;
+    	else if(m%n == 0)
+    		return n;
+    	else
+    		return gcd(n,m%n);
+    }
+}

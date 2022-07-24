@@ -1,0 +1,17 @@
+package Sandbox;
+
+import java.lang.Math ; 
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+class Sandbox {
+	  public static void main(String[] args) {
+
+		  int a = new int[2] ;
+		  int a() = new int[2] ;
+		  int[] a = new int(2) ;
+		  
+		  
+	  }
+
+	}
